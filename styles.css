@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+header{
+    background: rgb(182,0,0);
+    background: linear-gradient(90deg, rgba(182,0,0,1) 5%, rgba(153,9,9,1) 55%, rgba(0,0,0,1) 89%);
+    height: 150px;
+    max-width: 2200px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+section a{
+    font-size: 24px;
+}
+
+section h1{
+    font-size: 60px;
+    margin-left: 300px;
+    color: white;
+}
+
+section a:hover{
+    color: 	#ff0000;
+}
+
+section ul li{
+    display: inline;
+}
+
+section .escud{
+    width: 250px;
+    height: 450px;
+    margin: 80px 0 0 100px ;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 90px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+section p{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+section input,
+section button,
+section textarea {
+    margin-bottom: 8px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+}
+
+.logo {
+    height: 35px;
+}
+
+.c3{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fale {
+    margin: 30px 0 15px 0;
+}
+
+textarea{
+    resize: none;
+    height: 200px;
+}
+
+.but{
+    background-color:black;
+    color: white;
+    border: none;
+}
+
+#fla:hover {
+    background-image: url(./images/segundafot.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+.but:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.black{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+input:focus, textarea:focus{
+    outline-color:  rgb(0, 0, 0);
+}
+
+.contact{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+body{
+    max-width: 2000px;
+    background-color: 	#FF0000;
+    color: white;
+}
+
+#You{
+    background-color: white;
+}
+
+
+.rodaP{
+    text-align: end;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
